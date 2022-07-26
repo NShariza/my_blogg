@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import BlogEntries from './components/BlogEntries';
-// import State from './components/State';
 import IntroMenu from './components/IntroMenu';
 import Footer from './components/Footer'
 

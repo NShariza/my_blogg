@@ -6,7 +6,7 @@ const Header = () => {
       <h1><b>MY BLOG</b></h1>
       <p>Welcome to the blog of <span class="w3-tag">unknown</span></p>
     </header>
-  )
+  );
 }
 
 export default Header;

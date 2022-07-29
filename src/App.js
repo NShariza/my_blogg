@@ -36,6 +36,7 @@ function App() {
   );
 }
 
+
 // localhost:3000/catalog - Catalog
 // localhost:3000/catalog/iphone - Iphone
 // localhost:3000/catalog/iphone/macbook - MacBook

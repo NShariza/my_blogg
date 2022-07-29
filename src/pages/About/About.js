@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './About.module.css';
 
-const About = () => {
+const About = (props) => {
     return (
         <div className={styles.about}>
-            <h1>About us</h1>
+            <h1>{props.text}</h1>
         </div>
     );
 }

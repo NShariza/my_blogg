@@ -11,6 +11,7 @@ const Header = () => {
                 <li><a href="/adress">Adress</a></li>
                 <li><a href="/vacancies">Vacancies</a></li>
                 <li><a href="/support">Support</a></li>
+                <li><a href="/iphone">Iphone</a></li>
             </ul>
         </div>
     );

@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Support.module.css';
 
-const Support = () => {
+const Support = (props) => {
     return (
     <div className={styles.support}>
-        <h1>Support</h1>
+        <h1>{props.sup}</h1>
     </div>
     );
 }

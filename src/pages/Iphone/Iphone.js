@@ -1,15 +1,15 @@
 import React from 'react';
 
 const title = {
-    textAlign: 'center'
+  textAlign: 'center'
 }
 
 const Iphone = () => {
-    return (
-        <div>
-            <h1 style={title}>iPhones here</h1>  
-        </div>
-    );
+  return (
+    <div>
+      <h1 style={title}>iPhones here</h1>  
+    </div>
+  );
     
 }
 

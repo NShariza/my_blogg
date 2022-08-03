@@ -1,0 +1,42 @@
+.container h3{
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.boxes{
+    box-sizing: border-box;
+    width: 250px;
+}
+
+.watch_cards{
+    max-width: 1350px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.watch_cards img{
+    max-height: 270px;
+}
+
+.price{
+    font-size: 20px;
+    color: #58585a;
+    margin: 0;
+}
+.dollar{
+    color: #828282;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.choose{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    color: #5E8BCE;
+}
+.name{
+    font-size: 16px;
+}

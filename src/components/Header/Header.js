@@ -12,9 +12,10 @@ const Header = () => {
         <li><NavLink className={setActive} to="/about">About us</NavLink></li>
         <li><NavLink className={setActive} to="/contacts">Contacts</NavLink></li>
         <li><NavLink className={setActive} to="/catalog">Catalog</NavLink></li>
+        <li><NavLink className={setActive} to="/cart">Cart</NavLink></li>
       </ul>
     </div>
   );
-}
+};
 
 export default Header;

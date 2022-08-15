@@ -12,7 +12,7 @@ const Catalog = () => {
       <h1 style={title}>Catalog</h1>
       <div className={styles.container}>
         <div className={styles.catalog_card}>
-          <NavLink to="/catalog/iphones">
+          <NavLink to="/catalog/iphone">
             <img src="https://istore.kg/media/category/iphones.webp" alt="" />
             <h2>IPhone</h2>
           </NavLink> 

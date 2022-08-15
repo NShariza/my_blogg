@@ -3,16 +3,12 @@ import { useParams, useSearchParams} from 'react-router-dom';
 import { iphones} from '../../constants/iphones';
 import styles from './Product.module.css';
 
-// const title = {
-//   textAlign:"center"
-// }
 
 const Product = () => {
   const params = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
   const product = iphones.find(item => item.id === +params.id);
   // const items = ipads.find(item => item.id === +params.id);
-
 
   return( 
     <>
